@@ -28,7 +28,11 @@ window.onload = function() {
     });
 
     $(".button").click(function(){
-        var css = $('#code pre').text();
+        var css = [];
+        $('#code pre').each((i, item) => {
+            css.push($(item).text().trim());
+        });
+        css = css.join('\n');
         $.post("/api", {data:css}, function(data, status){
             editor1.setValue(data);
         });
