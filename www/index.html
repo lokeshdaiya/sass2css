@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>CSStoSASS Converter</title>
+	<meta content='SassToCss | Convert SASS code into CSS' name='description'>
+    <meta content='Sass, SCSS, CSS, nodejs, express, node-sass' name='keywords'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://esironal.github.io/cmtouch/lib/codemirror.css">
+	<link rel="stylesheet" href="https://esironal.github.io/cmtouch/addon/hint/show-hint.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://esironal.github.io/cmtouch/lib/codemirror.js"></script>
+	<script src="https://esironal.github.io/cmtouch/addon/hint/show-hint.js"></script>
+	<script src="https://esironal.github.io/cmtouch/addon/hint/xml-hint.js"></script>
+	<script src="https://esironal.github.io/cmtouch/addon/hint/html-hint.js"></script>
+    <script src="https://esironal.github.io/cmtouch/addon/hint/css-hint.js"></script>
+	<script src="https://esironal.github.io/cmtouch/mode/xml/xml.js"></script>
+	<script src="https://esironal.github.io/cmtouch/mode/javascript/javascript.js"></script>
+	<script src="https://esironal.github.io/cmtouch/mode/css/css.js"></script>
+	<script src="https://esironal.github.io/cmtouch/mode/htmlmixed/htmlmixed.js"></script>
+	<script src="https://esironal.github.io/cmtouch/addon/selection/active-line.js"></script>
+	<script src="https://esironal.github.io/cmtouch/addon/edit/matchbrackets.js"></script>
+	<link rel="stylesheet" href="https://esironal.github.io/cmtouch/theme/neonsyntax.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+	<h1> CSStoSASS Converter</h1>
+
+    <div class="editor">
+		    <div class="scss">
+					<div class="header">SCSS</div>
+					<div id="code"></div>
+			</div>
+			<div class="css">
+					<div class="header">CSS</div>
+					<div id="css"></div>
+			</div>
+	</div>
+	
+	<div class="actions">
+		    <div class="button">
+			<i class="fa fa-arrow-right" aria-hidden="true"></i>
+			</div>		
+	</div>
+
+	<script src="index.js"></script>
+	
+</body>
+</html>    

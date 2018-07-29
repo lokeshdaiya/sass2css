@@ -1,0 +1,45 @@
+.CodeMirror {
+    font-size: 15px;
+    width: 100%, ;
+    min-height: 500px;
+}
+
+.editor {
+    display: flex;
+    align-items: center;
+}
+
+#code, #css, .css, .scss {
+    width: 100%;
+}
+
+h1 {
+    color: #3fa9f5
+}
+
+.button {
+    cursor: pointer;
+    font-size: 35px;
+    line-height: 64px;
+    color: white;
+}
+
+ .header {
+     line-height: 24px;
+     text-align: center;
+     background: grey;
+     color: #ffffff;
+ }
+.actions {
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    background-color: #3fa9f5;
+    left: 0;
+    right: -25px;
+    top: 35px;
+    /* bottom: 0; */
+    margin: auto;
+    border-radius: 50%;
+    text-align: center;
+}
