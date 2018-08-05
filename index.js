@@ -10,6 +10,7 @@ function compileSassData(data) {
     try {
         result = sass.renderSync({
             data: data,
+            outputStyle:"expanded"
         });
         result = result.css.toString();
     }
