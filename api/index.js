@@ -40,7 +40,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/api', (req, res) => {
-    res.send('api data');
+    res.sendFile('index.html');
 })
 
 app.post('/api', (req, res) => {
