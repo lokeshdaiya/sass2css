@@ -36,7 +36,7 @@ app.use(function (req, res, next) {
   });
 
 app.get('/', (req, res) => {
-    res.sendFile('index.html', {root:'www'});
+    res.sendFile('index.html');
 })
 
 app.get('/api', (req, res) => {
