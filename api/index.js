@@ -25,7 +25,7 @@ function compileSassData(data) {
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.use(express.static('www'))
+app.use(express.static('public'))
 
 app.use(function (req, res, next) {
     res.setHeader('Access-Control-Allow-Origin', '*');
