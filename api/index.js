@@ -1,6 +1,6 @@
 
 // Requirements
-var sass = require('node-sass');
+var sass = require('sass');
 var express = require('express');
 var bodyParser = require("body-parser");
 var app = express();
